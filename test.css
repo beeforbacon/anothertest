@@ -1,0 +1,237 @@
+body {
+    background: #c3e4ee;
+}
+
+/* IMAGE FIX */
+div#crowdfund-body-description img {
+    max-width: 100%!important;
+}
+
+/* APP CONTAINER */
+#app > .row > .card.w-100.p-0.mx-0 {
+    border: 4px solid #b3d3dc;
+    overflow: hidden;
+    border-radius: 18px;
+}
+
+/* HEADER */
+div#crowdfund-header-container {
+    background: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* HEADER: PROGRESS */
+div#crowdfund-progress-bar {
+    height: 2rem;
+    margin: 0 1rem;
+    border-radius: 1rem!important;
+    overflow: hidden;
+    box-sizing: border-box;
+    width: calc(100% - 2rem)!important;
+    /* border: 2px solid #c3e4ee1f; */
+}
+
+    div#crowdfund-progress-bar div#crowdfund-progress-bar-confirmed-bar {
+        background-color: #fba41f;
+    }
+
+/* HEADER: STATS */
+.crowdfund-stats > div {
+    background: transparent;
+    border-right: 1px solid #f1f1f1;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+    .crowdfund-stats > div > h5 {
+        font-weight: 600;
+        font-size: 1.6rem;
+    }
+
+    .crowdfund-stats > div > h5.text-muted {
+        font-size: 1rem;
+        font-weight: 600;
+        font-style: italic;
+        text-transform: capitalize;
+        margin-bottom: 0;
+    }
+
+/* HEADER: CAP */
+span#crowdfund-header-target-hardcap {
+    font-size: 1.25rem;
+    padding-left: 0.5rem;
+}
+
+span#crowdfund-header-target-amount {
+    background: #fff1df;
+    padding: 0.2rem 0.6rem;
+    border-radius: 0.6rem;
+    color: #5d3800;
+}
+
+/* ------  */
+
+div#crowdfund-header-container {
+    text-align: center;
+    flex-direction: column;
+}
+
+span#crowdfund-header-start-date {
+    display: block;
+    font-style: italic;
+    text-transform: lowercase;
+}
+
+#crowdfund-body-header + hr {
+    height: 1px;
+    margin-bottom: 2rem;
+    background: #f1f1f1;
+    opacity: 1;
+    margin-top: 0;
+}
+
+/* HEADER: TAGLINE */
+#crowdfund-body-header h2#crowdfund-body-header-tagline {
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: var(--btcpay-body-text)!important;
+    text-align: center;
+}
+
+/* PERKS: HOVER */
+.perks-container .perk-zoom-bg.bg-primary {
+    background-color: #FFF!important;
+    border-radius: 6px;
+}
+
+.perks-container .perk-zoom-text {
+    font-size: 1.4rem;
+    font-weight: 600!important;
+    color: inherit;
+    line-height: 1.6rem;
+    padding: 0 1rem;
+}
+
+/* PERKS: BORDERs */
+
+.perks-container > div:nth-of-type(1) {
+    border-width: 2px;
+    border-color: #54b3cf;
+    background-color: #54b3cf;
+}
+
+.perks-container > div:nth-of-type(1) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(2) {
+    border-width: 2px;
+    border-color: #78b8b2;
+    background-color: #54b3cf;
+}
+
+.perks-container > div:nth-of-type(2) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(3) {
+    border-width: 2px;
+    border-color: #8bbca3;
+    background-color: #8bbca3;
+}
+
+.perks-container > div:nth-of-type(3) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(4) {
+    border-width: 2px;
+    border-color: #9dbe95;
+    background-color: #9dbe95;
+}
+
+.perks-container > div:nth-of-type(4) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(5) {
+    border-width: 2px;
+    border-color: #b0c086;
+    background-color: #b0c086;
+}
+
+.perks-container > div:nth-of-type(5) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(6) {
+    border-width: 2px;
+    border-color: #213991;
+    background-color: #213991;
+}
+
+.perks-container > div:nth-of-type(6) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(7) {
+    border-width: 2px;
+    border-color: #c3e4ee;
+    background-color: #c3e4ee;
+}
+
+.perks-container > div:nth-of-type(7) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(8) {
+    border-width: 2px;
+    border-color: #e7c85a;
+    background-color: #e7c85a;
+}
+
+.perks-container > div:nth-of-type(8) .card-body {
+    background: white;
+    border-radius: 0 0 6px 6px;
+}
+
+.perks-container > div:nth-of-type(9),
+.perks-container > div:nth-of-type(10) {
+    border-width: 2px;
+}
+
+#crowdfund-body-header > .row {
+    flex-direction: column;
+    align-items: center;
+}
+
+div#crowdfund-body-header-cta-container {
+    margin: 1rem 0;
+}
+
+/* RESPONSIVE VIDEO */
+.embed-responsive {
+    position: relative;
+    padding-bottom: 56.10%;
+    height: 0;
+    overflow: hidden;
+}
+ 
+.embed-responsive iframe,
+.embed-responsive object,
+.embed-responsive embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
